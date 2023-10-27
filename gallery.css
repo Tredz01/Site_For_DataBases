@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Roboto+Slab:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+    margin: 0; 
+    overflow-x: hidden;
+}
+.header {
+    height: 120%;
+    width: 100%;
+    background-color:  #FFCF48;
+}
+.strelka {
+    display: inline;
+    margin-top: 1%;
+}
+.back {
+    position: absolute;
+    left: 3.5%;
+    top: 1%;
+    letter-spacing: 1vh;
+    transition: 2s;
+}
+.logo {
+    margin-top: -3%;
+    left: 94%;
+    position: absolute;
+    width: 100%;
+}
+.gallery {
+    font-family: 'Lobster', sans-serif;
+    letter-spacing: 0.5em;
+    margin-top: 2%;
+    font-size: x-large;
+    
+}
+
+
+.picture1 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 3%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur1:hover {
+    transform: scale(1.1);
+}
+.pictur1 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+    border-radius: 3vh;
+}
+
+
+.picture2 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 3%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur2:hover {
+    transform: scale(1.1);
+}
+.pictur2 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+    border-radius: 3vh;
+}
+
+
+.picture3 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 25%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur3:hover {
+    transform: scale(1.1);
+}
+.pictur3 {
+    transition: 2s;
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+    border-radius: 3vh;
+}
+
+.picture4 {
+    position: absolute;
+    width: 30%;
+    height: 82%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 25%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur4:hover {
+    transform: scale(1.1);
+}
+.pictur4 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+
+
+.picture5 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 47%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur5:hover {
+    transform: scale(1.1);
+}
+.pictur5 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+
+
+.picture6 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 65%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur6:hover {
+    transform: scale(1.1);
+}
+.pictur6 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+    border-radius: 3vh;
+}
+
+
+.picture7 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 70%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur7:hover {
+    transform: scale(1.1);
+}
+.pictur7 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+
+
+.picture8 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 87.5%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur8:hover {
+    transform: scale(1.1);
+}
+.pictur8 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 0.8%;
+    border-radius: 3vh;
+}
+
+
+.picture9 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 92%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur9:hover {
+    transform: scale(1.1);
+}
+.pictur9 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+
+
+.picture10 {
+    position: absolute;
+    width: 30%;
+    height: 85%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 111%;
+    margin-left: 52%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur10:hover {
+    transform: scale(1.1);
+}
+.pictur10 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+
+
+.picture11 {
+    position: absolute;
+    width: 30%;
+    height: 38%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 115%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur11:hover {
+    transform: scale(1.1);
+}
+.pictur11 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+.picture12 {
+    position: absolute;
+    width: 30%;
+    height: 39%;
+    background-color: #FFCF48;
+    border-radius: 3vh;
+    margin-top: 138%;
+    margin-left: 18%;
+    border: 2px solid #C79600;
+    overflow: hidden;
+}
+.pictur12:hover {
+    transform: scale(1.1);
+}
+.pictur12 {
+    transition: 2s;
+    overflow: hidden;
+    margin-left: 1.5%;
+    margin-top: 1%;
+    border-radius: 3vh;
+}
+.fotter {
+    margin-top: 165%;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: #151719;
+    text-align: center;
+    color: grey;
+    border: 1px solid black;
+}
+.txtfooter1 {
+    margin-top: 1vh;
+    margin-left: 85%;
+    text-decoration: underline;
+    position: absolute;
+}
+.txtfooter2 {
+    margin-top: 4vh;
+    margin-left: 87%;
+    text-decoration: underline;
+    position: absolute;
+}
+.imgfooter {
+    position: absolute;
+    margin-left: 95%;
+}
+
+
+.decoration1 {
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration2 {
+    position: absolute;
+    margin-top: 16%;
+    margin-left: 4%;
+}
+.decoration3 { 
+    position: absolute;
+    margin-top: 26%;
+    margin-left: 4%;
+    transform: rotate(-20deg);
+}
+.decoration4 { 
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration5 { 
+    position: absolute;
+    margin-top: 48%;
+    margin-left: 4%;
+    transform: rotate(-20deg);
+}
+.decoration6 { 
+    position: absolute;
+    margin-top: 62%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration7 {
+    position: absolute;
+    margin-top: 74%;
+    margin-left: 4%;
+    transform: rotate(-20deg);
+}
+.decoration8 {
+    position: absolute;
+    margin-top: 89%;
+    margin-left: 4%;
+    transform: rotate(40deg);
+}
+.decoration9 {
+    position: absolute;
+    margin-top: 99%;
+    margin-left: 4%;
+    transform: rotate(-20deg);
+}
+.decoration10 {
+    position: absolute;
+    margin-top: 112%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration11 {
+    position: absolute;
+    margin-top: 119%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration12 {
+    position: absolute;
+    margin-top: 132%;
+    margin-left: 4%;
+    transform: rotate(-20deg);
+}
+.decoration13 {
+    position: absolute;
+    margin-top: 145%;
+    margin-left: 4%;
+    transform: rotate(20deg);
+}
+.decoration14 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 3%;
+    transform: rotate(-20deg);
+}
+.decoration15 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 16%;
+    transform: rotate(20deg);
+}
+.decoration16 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 31%;
+    transform: rotate(-20deg);
+}
+.decoration17 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 38%;
+    transform: rotate(20deg);
+}
+.decoration18 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 50%;
+    transform: rotate(-5deg);
+}
+.decoration19 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 60%;
+    transform: rotate(20deg);
+}
+.decoration20 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 73%;
+    transform: rotate(-20deg);
+}
+.decoration21 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 86%;
+    transform: rotate(20deg);
+}
+.decoration22 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 102%;
+    transform: rotate(-20deg);
+}
+.decoration23 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 110%;
+    transform: rotate(20deg);
+}
+.decoration24 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 123%;
+    transform: rotate(-10deg);
+}
+.decoration25 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 133%;
+    transform: rotate(20deg);
+}
+.decoration26 {
+    position: absolute;
+    margin-left: 87%;
+    margin-top: 145%;
+    transform: rotate(-20deg);
+}

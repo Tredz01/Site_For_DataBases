@@ -1,0 +1,416 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&family=Playfair+Display&family=Roboto+Slab&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+    margin: 0; 
+    overflow-x: hidden;
+}
+.header {
+    height: 120%;
+    width: 100%;
+    background-color:  #FFCF48;
+}
+.strelka {
+    display: inline;
+    margin-top: 2%;
+}
+.back {
+    position: absolute;
+    left: 3.5%;
+    top: 1%;
+    letter-spacing: 1vh;
+    transition: 2s;
+}
+.logo {
+    margin-top: -3%;
+    left: 94%;
+    position: absolute;
+    width: 100%;
+}
+.lineheader {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    
+}
+
+
+
+
+
+
+
+
+.block1 {
+    overflow: hidden;
+    width: 66vh;
+    height: 53.5vh;
+    background-color: white;
+}
+.img {
+    position: absolute;
+    transform: rotate(-45deg);
+    margin-left: -15%;
+    margin-top: -10%;
+}
+.txtblock1 {
+    position: absolute;
+    font-size: large;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.txtphone {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 8%;
+    color: grey;
+}
+.phone1 {
+    position: absolute;
+    font-size: large;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+.txtfax {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 15%;
+    color: grey;
+}
+.phone2 {
+    position: absolute;
+    font-size: large;
+    margin-left: 15%;
+    margin-top: 17%;
+}
+.txtmail {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 22%;
+    color: grey;
+}
+.mail {
+    position: absolute;
+    font-size: large;
+    margin-left: 15%;
+    margin-top: 24%;
+}
+
+
+
+
+.line1 {
+    position: absolute;
+    width: 3px;
+    height: 53.5vh;
+    background-color: black;
+    margin-left: 34.5%;
+}
+
+
+
+
+.block2 {
+    margin-top: -27.93%;
+    margin-left: 34.68%;
+    position: absolute;
+    width: 64.4vh;
+    height: 53.5vh;
+    background-color: #ccac00;
+    overflow: hidden;
+}
+.img1 {
+    position: absolute;
+    transform: rotate(50deg);
+    margin-left: -60%;
+    margin-top: -8%;
+}
+.txtblock2 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 5.5%;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.txtphone1 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 16%;
+    color: grey;
+}
+.phone3 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 22%;
+}
+.txtfax1 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 33%;
+    color: grey;
+}
+.phone4 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 38%;
+}
+.pressecretar {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 49%;
+    color: grey;
+}
+.fio {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 54%;
+}
+.txtmail1 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 65%;
+    color: grey;
+}
+.mail1 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 70%;
+}
+
+
+
+
+
+.line2 {
+    position: absolute;
+    width: 3px;
+    height: 53.7vh;
+    background-color: black;
+    margin-left: 68.26%;
+    margin-top: -27.9%;
+}
+
+
+
+
+.block3 {
+    overflow: hidden;
+    margin-top: -27.93%;
+    margin-left: 68.43%;
+    position: absolute;
+    width: 66vh;
+    height: 53.5vh;
+    background-color: black;
+}
+.img2 {
+    position: absolute;
+    margin-left: -50%;
+    margin-top: 2%;
+}
+.txtblock3 {
+    position: absolute;
+    color: white;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 5.5%;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif; 
+    font-family: 'Roboto Slab', serif;
+}
+.txtphone3 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 18%;
+    color: grey;
+}
+.phone5 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 25%;
+    color: white;
+}
+.organization {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 40%;
+    color: grey;
+}
+.phone6 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 48%;
+    color: white;
+}
+.txtmail2 {
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 62%;
+    color: grey;
+}
+.mail2 {
+    position: absolute;
+    font-size: large;
+    margin-left: 57%;
+    margin-top: 69%;
+    color: white;
+}
+
+
+
+
+.mapblock {
+    position: absolute;
+    width: 191.5vh;
+    height: 40vh;
+    border: 3px solid black;
+    background-color: 	#F5F5DC;
+}
+.txt {
+    position: absolute;
+    margin-top: 2.75%;
+    margin-left: 18%;
+    font-size: x-large;
+    font-family: 'Lobster', sans-serif;
+}
+#map {
+    margin-top: 0%;
+    width: 130.4vh;
+    height: 40vh;
+}
+.line {
+    position: absolute;
+    width: 3px;
+    height: 40.5vh;
+    background-color: black;
+    margin-left: 68.1%;
+    margin-top: -21%;
+}
+.txtmetro {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 71%;
+    margin-top: -15%;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+
+      
+}
+.green_circle {
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    background-color: green;
+    margin-top: -8%;
+    margin-left: 71.5%;
+
+}
+.red_circle {
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    background-color: red;
+    margin-left: 71.5%;
+    margin-top: -12%;
+}
+.blue_circle {
+    position: absolute;
+    width: 1vh;
+    height: 1vh;
+    border-radius: 0.5vh;
+    background-color: blue;
+    margin-left: 71.5%;
+    margin-top: -10%;
+}
+.metro1 {
+    font-weight: bold;
+    margin-top: -8.2%;
+    margin-left: 72.8%;
+    position: absolute; 
+}
+.metro2 {
+    font-weight: bold;
+    margin-top: -12.2%;
+    margin-left: 72.8%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+.metro3 {
+    font-weight: bold;
+    margin-top: -10.2%;
+    margin-left: 72.8%;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+.adress1 {
+    position: absolute;
+    font-size: x-large;
+    margin-left: 89%;
+    margin-top: -15%;
+    font-family: 'Lobster', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+}
+.adress2 {
+    font-weight: bold;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 89%;
+    margin-top: -12.2%;
+}
+
+
+
+
+.fotter {
+    margin-top: 21.2%;
+    position: absolute;
+    width: 100%;
+    height: 7%;
+    background-color: #151719;
+    text-align: center;
+    color: grey;
+    border: 1px solid black;
+}
+.txtfooter1 {
+    margin-top: 1vh;
+    margin-left: 85%;
+    text-decoration: underline;
+    position: absolute;
+}
+.txtfooter2 {
+    margin-top: 4vh;
+    margin-left: 87%;
+    text-decoration: underline;
+    position: absolute;
+}
+.imgfooter {
+    position: absolute;
+    margin-left: 95%;
+}
